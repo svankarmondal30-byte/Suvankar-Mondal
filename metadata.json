@@ -1,0 +1,6 @@
+{
+  "name": "MAX AI Assistant",
+  "description": "MAX is your smart, fast, personal AI smartphone assistant with multilingual voice control, Android device actions, and verified security.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

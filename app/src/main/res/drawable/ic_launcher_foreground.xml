@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Outer Pulsing Energy Ring -->
+    <path
+        android:pathData="M 54,28 A 26,26 0 1,0 54,80 A 26,26 0 1,0 54,28"
+        android:strokeColor="#5000E5FF"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round" />
+
+    <!-- AI Soundwave Orbit Ring with gaps -->
+    <path
+        android:pathData="M 32,54 A 22,22 0 0,1 76,54"
+        android:strokeColor="#8000E5FF"
+        android:strokeWidth="3.0"
+        android:strokeLineCap="round" />
+    <path
+        android:pathData="M 76,54 A 22,22 0 0,1 32,54"
+        android:strokeColor="#402979FF"
+        android:strokeWidth="3.0"
+        android:strokeLineCap="round" />
+
+    <!-- Center Glowing Voice Orb -->
+    <path
+        android:pathData="M 54,42 A 12,12 0 1,0 54,66 A 12,12 0 1,0 54,42">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="42"
+                android:startY="42"
+                android:endX="66"
+                android:endY="66"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#FF00E5FF" />
+                <item android:offset="1.0" android:color="#FF2979FF" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Voice Equalizer / Wave Bars inside orb -->
+    <path
+        android:pathData="M 47,51 L 47,57"
+        android:strokeColor="#FFFFFFFF"
+        android:strokeWidth="2.0"
+        android:strokeLineCap="round" />
+    <path
+        android:pathData="M 51,48 L 51,60"
+        android:strokeColor="#FFFFFFFF"
+        android:strokeWidth="2.2"
+        android:strokeLineCap="round" />
+    <path
+        android:pathData="M 54,46 L 54,62"
+        android:strokeColor="#FFFFFFFF"
+        android:strokeWidth="2.4"
+        android:strokeLineCap="round" />
+    <path
+        android:pathData="M 57,48 L 57,60"
+        android:strokeColor="#FFFFFFFF"
+        android:strokeWidth="2.2"
+        android:strokeLineCap="round" />
+    <path
+        android:pathData="M 61,51 L 61,57"
+        android:strokeColor="#FFFFFFFF"
+        android:strokeWidth="2.0"
+        android:strokeLineCap="round" />
+
+    <!-- Satellite audio points -->
+    <path
+        android:pathData="M 54,23 A 2.5,2.5 0 1,0 54,28 A 2.5,2.5 0 1,0 54,23"
+        android:fillColor="#FF00E5FF" />
+    <path
+        android:pathData="M 54,80 A 2.5,2.5 0 1,0 54,85 A 2.5,2.5 0 1,0 54,80"
+        android:fillColor="#FF2979FF" />
+</vector>
